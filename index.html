@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faisal Khan | Creative Developer & Cybersecurity Specialist</title>
+    <meta name="description" content="Portfolio of Faisal Khan - Creative Developer and Cybersecurity Specialist showcasing innovative projects and technical expertise">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Locomotive Scroll CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Noise Overlay -->
+    <div class="noise"></div>
+    
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <button id="theme-toggle-btn">
+            <!-- <i class="fas fa-sun light-icon"></i> -->
+            <!-- <i class="fas fa-moon dark-icon"></i> -->
+        </button>
+    </div>
+    
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-text">FAISAL<span class="loader-dot">.</span>KHAN</div>
+            <div class="loader-progress">
+                <div class="loader-progress-bar"></div>
+            </div>
+            <div class="loader-counter">0%</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-content">
+                <a href="#" class="logo">
+                    <span class="logo-text">FAISAL</span>
+                    <span class="logo-dot">.</span>
+                    <span class="logo-text"></span>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="#about" class="nav-item" data-text="About">About</a>
+                    <a href="#projects" class="nav-item" data-text="Projects">Projects</a>
+                    <a href="#cybersecurity" class="nav-item" data-text="Security">Security</a>
+                    <a href="#skills" class="nav-item" data-text="Skills">Skills</a>
+                    <a href="#contact" class="nav-item" data-text="Contact">Contact</a>
+                    <a href="/assest/cv.pdf" download="/assest/cv.pdf" class="nav-item btn-resume">Resume <i class="fas fa-download"></i></a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <div class="mobile-menu-btn">
+                    <div class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Navigation -->
+        <div class="mobile-nav">
+            <div class="mobile-nav-inner">
+                <div class="mobile-nav-links">
+                    <a href="#about" class="mobile-nav-item" data-text="About">About</a>
+                    <a href="#projects" class="mobile-nav-item" data-text="Projects">Projects</a>
+                    <a href="#cybersecurity" class="mobile-nav-item" data-text="Security">Security</a>
+                    <a href="#skills" class="mobile-nav-item" data-text="Skills">Skills</a>
+                    <a href="#contact" class="mobile-nav-item" data-text="Contact">Contact</a>
+                    <a href="/assest/cv.pdf" download="/assest/cv.pdf" class="mobile-nav-item btn-mobile-resume">Resume <i class="fas fa-download"></i></a>
+                </div>
+                <div class="mobile-nav-social">
+                    <a href="https://github.com/mrfaisal607" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/faisal-khan607/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="mobile-nav-footer">
+                    <p>© 2025 Faisal Khan. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main data-scroll-container>
+        <!-- Hero Section -->
+        <section class="hero" data-scroll-section id="hero">
+            <div class="hero-bg">
+                <div class="hero-particles"></div>
+                <div class="hero-grid"></div>
+                <div class="hero-gradient"></div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-intro" data-scroll data-scroll-speed="1">
+                        <span class="hero-greeting">Hello, I'm</span>
+                    </div>
+                    <h1 class="hero-title" data-scroll data-scroll-speed="1.2">
+                        <span class="hero-title-text">Faisal Khan</span>
+                    </h1>
+                    <!-- <div class="hero-subtitle-wrapper" data-scroll data-scroll-speed="1.4">
+                        <h2 class="hero-subtitle">
+                            <span>I create</span> <span id="typing-text"></span>
+                        </h2>
+                    </div> -->
+                    <p class="hero-description split-text" data-scroll data-scroll-speed="1.6">
+                        Final-year BCA student passionate about creating secure, interactive web experiences and exploring the fascinating world of cybersecurity.
+                    </p>
+                    <div class="hero-cta" data-scroll data-scroll-speed="1.8">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View My Work</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="/assest/cv.pdf" class="btn btn-outline" download="/assest/cv.pdf">
+                            <span>Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                    <div class="hero-social" data-scroll data-scroll-speed="2">
+                        <a href="https://github.com/mrfaisal607" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/faisal-khan607/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about" aria-label="Scroll down">
+                    <div class="scroll-down-mouse">
+                        <div class="scroll-down-wheel"></div>
+                    </div>
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+            
+            <!-- Floating Elements -->
+            <div class="floating-elements">
+                <div class="floating-element fe-1"><i class="fas fa-code"></i></div>
+                <div class="floating-element fe-2"><i class="fas fa-shield-alt"></i></div>
+                <div class="floating-element fe-3"><i class="fas fa-terminal"></i></div>
+                <div class="floating-element fe-4"><i class="fas fa-laptop-code"></i></div>
+                <div class="floating-element fe-5"><i class="fas fa-bug"></i></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" data-scroll-section id="about">
+            <div class="section-bg-wrapper">
+                <div class="section-bg"></div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <!-- <span class="section-tag">About Me</span> -->
+                    <h2 class="section-heading" data-scroll data-scroll-speed="0.5">Who I Am</h2>
+                </div>
+                
+                <div class="about-content">
+                    <div class="profile-image" data-scroll data-scroll-speed="1">
+                        <div class="profile-image-wrapper">
+                            <img src="assest/my.jpg" alt="Faisal Khan - Web Developer and Cybersecurity Specialist">
+                        </div>
+                        <div class="profile-image-border"></div>
+                        <div class="profile-image-shapes">
+                            <div class="shape shape-1"></div>
+                            <div class="shape shape-2"></div>
+                            <div class="shape shape-3"></div>
+                        </div>
+                    </div>
+                    <div class="about-text" data-scroll data-scroll-speed="1.2">
+                        <h3>Whoami <span class="terminal-cursor">_</span></h3>
+                        <p class="split-text">I'm a passionate web developer and cybersecurity enthusiast currently completing my Bachelor's in Computer Applications. I specialize in creating modern, responsive websites using HTML, CSS, and JavaScript with a focus on animation and user experience.</p>
+                        <p class="split-text">My journey in tech began with web development, but I've since expanded my interests to include cybersecurity and ethical hacking. I'm constantly learning and exploring new technologies to enhance my skills.</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item" data-value="3">
+                                <div class="stat-number">3</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-item" data-value="1">
+                                <div class="stat-number">1</div>
+                                <div class="stat-label">Cybersecurity Certifications</div>
+                            </div>
+                            <div class="stat-item" data-value="1">
+                                <div class="stat-number">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="interests">
+                    <h3 data-scroll data-scroll-speed="0.5">My Expertise</h3>
+                    <div class="interests-grid">
+                        <div class="interest-card" data-scroll data-scroll-speed="0.7">
+                            <div class="interest-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h4>Web Development</h4>
+                            <p>Creating responsive and interactive websites with modern technologies like HTML5, CSS3, and JavaScript.</p>
+                            <div class="interest-card-bg"></div>
+                        </div>
+                        <div class="interest-card" data-scroll data-scroll-speed="0.9">
+                            <div class="interest-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>Cybersecurity</h4>
+                            <p>Exploring network security, penetration testing, and ethical hacking to build more secure applications.</p>
+                            <div class="interest-card-bg"></div>
+                        </div>
+                        <div class="interest-card" data-scroll data-scroll-speed="1.1">
+                            <div class="interest-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>Animation</h4>
+                            <p>Using GSAP and Locomotive Scroll to create smooth, engaging animations and scrolling experiences.</p>
+                            <div class="interest-card-bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" data-scroll-section id="projects">
+            <div class="section-bg-wrapper">
+                <div class="section-bg"></div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <!-- <span class="section-tag">Portfolio</span> -->
+                    <h2 class="section-heading" data-scroll data-scroll-speed="0.5">Featured Projects</h2>
+                </div>
+                
+                <div class="projects-filter" data-scroll data-scroll-speed="0.7">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                    <button class="filter-btn" data-filter="cyber">Security</button>
+                    <button class="filter-btn" data-filter="animation">Animation</button>
+                </div>
+                
+                <div class="projects-grid">
+                    <div class="project-card" data-category="cyber" data-scroll data-scroll-speed="0.9">
+                        <div class="project-image">
+                            <img src="/assest/pro1.png" alt="TigerScan Project">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <a href="https://github.com/mrfaisal607/TIGERSCAN" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>TigerScan – Recon & Info Gathering Tool</h3>
+                            <p>A Python-based tool to automate reconnaissance & footprinting using OSINT techniques. Built for ethical hacking and bug bounty research.</p>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">OSINT</span>
+                                <span class="tag">Recon</span>
+                                <span class="tag">CLI Tool</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="web" data-scroll data-scroll-speed="1.1">
+                        <div class="project-image">
+                            <img src="assest/pro2.png" alt="KHANSAAB-PERFUME">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <a href="https://mrfaisal607.github.io/KHANSAAB-PERFUME/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View live demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mrfaisal607/KHANSAAB-PERFUME" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>KHANSAAB-PERFUME</h3>
+                            <p>An e-commerce website for a perfume brand with product catalog and shopping cart.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Locomotive Scroll</span>
+                                <span class="tag">GSAP</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="animation" data-scroll data-scroll-speed="1.3">
+                        <div class="project-image">
+                            <img src="assest/web3.png" alt="Refokus Clone">
+                            <div class="project-overlay">
+                                <div class="project-overlay-content">
+                                    <a href="https://refokus-clone-flame.vercel.app/" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View live demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                    <a href="https://github.com/mrfaisal607/Refokus-clone" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="View code on GitHub">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Refokus Clone</h3>
+                            <p>A clone of the Refokus website with advanced animations using GSAP and Locomotive Scroll.</p>
+                            <div class="project-tags">
+                                <span class="tag">React JS</span>
+                                <span class="tag">tailwind CSS</span>
+                                <span class="tag">Locomotive Scroll</span>
+                                <span class="tag">GSAP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="projects-cta" data-scroll data-scroll-speed="0.5">
+                    <a href="https://github.com/mrfaisal607" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        <span>View More on GitHub</span>
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cybersecurity Section -->
+        <section class="cybersecurity" data-scroll-section id="cybersecurity">
+            <div class="section-bg-wrapper">
+                <div class="section-bg"></div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <!-- <span class="section-tag">Security</span> -->
+                    <h2 class="section-heading" data-scroll data-scroll-speed="0.5">Cybersecurity Expertise</h2>
+                </div>
+                
+                <div class="cyber-intro" data-scroll data-scroll-speed="0.7">
+                    <div class="cyber-intro-icon">
+                        <i class="fas fa-shield-alt"></i>
+                        <div class="cyber-intro-icon-particles">
+                            <div class="particle p1"></div>
+                            <div class="particle p2"></div>
+                            <div class="particle p3"></div>
+                            <div class="particle p4"></div>
+                            <div class="particle p5"></div>
+                        </div>
+                    </div>
+                    <p class="split-text">I'm currently diving deep into cybersecurity, starting from the basics and building a strong foundation through hands-on labs, real-world tools, and ethical hacking techniques. Every day, I learn something new — from scanning networks to exploiting machines responsibly.</p>
+                </div>
+                
+                <div class="initiatives-grid">
+                    <div class="initiative-card" data-scroll data-scroll-speed="0.9">
+                        <div class="initiative-icon">
+                            <i class="fas fa-terminal"></i>
+                        </div>
+                        <div class="initiative-content">
+                            <h3>Ethical Hacking</h3>
+                            <p>Practicing scanning, enumeration, and exploitation using Nmap, Metasploit, Hydra, and more. Labs completed on HackTheBox: Fawn, Meow, Dancing, and counting!</p>
+                        </div>
+                        <div class="initiative-card-bg"></div>
+                    </div>
+                    
+                    <div class="initiative-card" data-scroll data-scroll-speed="1.1">
+                        <div class="initiative-icon">
+                            <i class="fas fa-key"></i>
+                        </div>
+                        <div class="initiative-content">
+                            <h3>Password Attacks</h3>
+                            <p>Explored cracking techniques using John, Hashcat, Hydra, and learned about online/offline attacks, keyloggers, rainbow tables, and defense techniques.</p>
+                        </div>
+                        <div class="initiative-card-bg"></div>
+                    </div>
+                    
+                    <div class="initiative-card" data-scroll data-scroll-speed="0.9">
+                        <div class="initiative-icon">
+                            <i class="fas fa-microscope"></i>
+                        </div>
+                        <div class="initiative-content">
+                            <h3>Digital Forensics (DFIR)</h3>
+                            <p>Understanding how to trace attacks, investigate compromised systems, and handle digital evidence during security incidents.</p>
+                        </div>
+                        <div class="initiative-card-bg"></div>
+                    </div>
+                    
+                    <div class="initiative-card" data-scroll data-scroll-speed="1.1">
+                        <div class="initiative-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="initiative-content">
+                            <h3>Web Application Security</h3>
+                            <p>Learning how to identify web vulnerabilities like XSS, SQLi, and CSRF — and building secure habits in development.</p>
+                        </div>
+                        <div class="initiative-card-bg"></div>
+                    </div>
+                </div>
+                
+                
+          <!-- Certifications Timeline -->
+<!-- Certifications Timeline -->
+<div class="cyber-certifications" data-scroll data-scroll-speed="0.8">
+    <h3>Learning Path & Certifications</h3>
+    <div class="cert-timeline">
+        <div class="cert-item">
+            <div class="cert-icon">
+                <i class="fas fa-user-graduate"></i>
+            </div>
+            <div class="cert-content">
+                <h4>12th Grade - The New Age High School</h4>
+                <p>Successfully completed higher secondary education (GBSE) in the Arts stream with 68.86%. Developed a strong personal interest in computers, ethical hacking, and web development alongside formal studies.</p>
+                <span class="cert-date">2022</span>
+            </div>
+        </div>
+        
+        <div class="cert-item">
+            <div class="cert-icon">
+                <i class="fas fa-university"></i>
+            </div>
+            <div class="cert-content">
+                <h4>BCA - Gujarat University</h4>
+                <p>Currently pursuing a Bachelor of Computer Applications at Lokmanya College under Gujarat University. Building a strong foundation in programming, data structures, and computer networks. Achieved 81.14% in Semester 5.</p>
+                <span class="cert-date">2022 – Present</span>
+            </div>
+        </div>
+
+        
+
+        <div class="cert-item">
+            <div class="cert-icon">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="cert-content">
+                <h4>Web Development Journey</h4>
+                <p>Started hands-on development using HTML, CSS, JavaScript and modern animation libraries like GSAP and Locomotive Scroll. Created interactive UI projects showcasing frontend mastery.</p>
+                <span class="cert-date">2022</span>
+            </div>
+        </div>
+
+        <div class="cert-item">
+            <div class="cert-icon">
+                <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="cert-content">
+                <h4>EC-Council - Ethical Hacking Essentials (EHE)</h4>
+                <p>Completed EC-Council’s EHE program. Gained foundational knowledge in ethical hacking, vulnerability scanning, malware basics, and the hacker lifecycle. Learned ethical and legal considerations in cybersecurity.</p>
+                <span class="cert-date">June 4, 2023</span>
+            </div>
+        </div>
+
+        <div class="cert-item">
+            <div class="cert-icon">
+                <i class="fas fa-award"></i>
+            </div>
+            <div class="cert-content">
+                <h4>TryHackMe & HackTheBox</h4>
+                <p>Active participant on TryHackMe and HackTheBox. Solved multiple beginner-to-intermediate labs including Meow, Fawn, and Dancing. Continuously improving penetration testing skills and tool usage like Burp Suite and Nmap.</p>
+                <span class="cert-date">2025 – Present</span>
+            </div>
+        </div>
+
+        <div class="cert-item">
+            <div class="cert-icon">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="cert-content">
+                <h4>DFIR Exploration</h4>
+                <p>Studying Digital Forensics and Incident Response with a focus on system compromise investigation, data recovery, log analysis, and attack chain breakdown. Learning tools like Autopsy, Volatility, and FTK Imager.</p>
+                <span class="cert-date">2025 – Present</span>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+            </div>
+        </section>
+
+      
+       <!-- Skills Section -->
+       <section class="skills" data-scroll-section id="skills">
+        <div class="section-bg-wrapper">
+            <div class="section-bg"></div>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-heading" data-scroll data-scroll-speed="0.5">My Skills</h2>
+            </div>
+            
+            <div class="skills-intro" data-scroll data-scroll-speed="0.7">
+                <p class="split-text">I'm an enthusiastic and detail-oriented learner with a strong foundation in web development and cybersecurity. My journey combines creative frontend development with hands-on exploration of ethical hacking and digital security. I strive to blend design, functionality, and security in everything I build.</p>
+            </div>
+    
+            <!-- Skills Grid Layout -->
+            <div class="skills-categories">
+                <!-- Programming Languages -->
+                <div class="skill-category-card" data-scroll data-scroll-speed="0.8">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML <i class="fab fa-html5"></i></span>
+                        <span class="skill-tag">CSS <i class="fab fa-css3-alt"></i></span>
+                        <span class="skill-tag">JavaScript <i class="fab fa-js"></i></span>
+                        <span class="skill-tag">Python <i class="fab fa-python"></i></span>
+                        <span class="skill-tag">C <i class="fas fa-terminal"></i></span>
+                    </div>
+                </div>
+                
+                <!-- Web Development -->
+                <div class="skill-category-card" data-scroll data-scroll-speed="0.9">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">React.js <i class="fab fa-react"></i></span>
+                        <span class="skill-tag">GSAP Animations</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Locomotive Scroll</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity -->
+                <div class="skill-category-card" data-scroll data-scroll-speed="1.0">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Penetration Testing</span>
+                        <span class="skill-tag">Network Security</span>
+                        <span class="skill-tag">Web Application Security</span>
+                        <span class="skill-tag">Cryptography Basics</span>
+                    </div>
+                </div>
+                
+                <!-- Tools & Software -->
+                <div class="skill-category-card" data-scroll data-scroll-speed="1.1">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Tools & Platforms</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git & GitHub <i class="fab fa-github"></i></span>
+                        <span class="skill-tag">VS Code <i class="fas fa-code"></i></span>
+                        <span class="skill-tag">Linux & Bash <i class="fab fa-linux"></i></span>
+                        <span class="skill-tag">Kali Linux Tools</span>
+                        <span class="skill-tag">Burp Suite</span>
+                        <span class="skill-tag">Nmap</span>
+
+                        <!-- <span class="skill-tag">Figma <i class="fab fa-figma"></i></span> -->
+                    </div>
+                </div>
+            </div>
+    
+            
+        </div>
+    </section>
+    
+
+
+        <!-- Contact Section -->
+        <section class="contact" data-scroll-section id="contact">
+            <div class="section-bg-wrapper">
+                <div class="section-bg"></div>
+            </div>
+            <div class="container">
+                <div class="section-header">
+                    <!-- <span class="section-tag">Contact</span> -->
+                    <h2 class="section-heading" data-scroll data-scroll-speed="0.5">Get In Touch</h2>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info" data-scroll data-scroll-speed="0.7">
+                        <h3>Contact Information</h3>
+                        <p class="split-text">Feel free to reach out to me for any questions or opportunities. I'll get back to you as soon as possible.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:mrfaisalkhan607@gmail.com">mrfaisalkhan607@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Location</h4>
+                                    <p>Ahmedabad, India</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-social">
+                            <a href="https://github.com/mrfaisal607" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/faisal-khan607/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form" data-scroll data-scroll-speed="0.9">
+                        <form action="https://formsubmit.co/mrfaisalkhan607@gmail.com" method="POST" id="contact-form">
+                            <!-- Prevent spam -->
+                        
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                    
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                    
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            </div>
+                    
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Your message..." rows="5" required></textarea>
+                            </div>
+                    
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <span class="logo-text">FAISAL</span>
+                        <span class="logo-dot">.</span>
+                        <span class="logo-text">KHAN</span>
+                    </a>
+                    <p>Creative Developer & Cybersecurity Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h4>Navigation</h4>
+                        <a href="#about">About</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#cybersecurity">Security</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Social</h4>
+                        <a href="https://github.com/mrfaisal607" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://www.linkedin.com/in/faisal-khan607/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Faisal Khan. All Rights Reserved.</p>
+                    <p>Designed & Built with <i class="fas fa-heart"></i></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-content">
+            <div class="toast-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="toast-message">
+                <h4 class="toast-title">Success!</h4>
+                <p class="toast-description">Your message has been sent successfully.</p>
+            </div>
+            <button class="toast-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/SplitText.min.js"></script>
+    
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
